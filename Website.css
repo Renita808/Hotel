@@ -1,0 +1,76 @@
+body {
+  background-color: #d3d3d3;
+  /*overflow: hidden; */
+}
+#contact {
+  font-family: 'Hyeon', sans-serif;
+  display: inline;
+  margin-left: 15px;
+  font-style: italic;
+}
+.header {
+  font-family: 'Hyeon', sans-serif;
+  display: inline;
+  margin-left: 114px;
+  font-style: italic;
+}
+#header_div {
+  margin-top: 25px;
+  margin-left: 250px;
+}
+.pool_div {
+  margin: auto;
+  width: 65%;
+  border: 1.5px solid gray;
+  padding: 10px;
+  position: relative;
+}
+#main_head {
+  font-family: 'Merienda', cursive;
+  font-style: italic;
+  color: #464746;
+}
+#pool_pic {
+  border: 1pt solid gray;
+  display: inline-block;
+  width: 65%;
+}
+.available {
+  margin-right: 1px;
+  border: 1px solid black;
+  background-color: black;
+  height: 437px;
+  width: 30%;
+  display: inline-block;
+}
+#available_div {
+  font-family: 'Hyeon', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+a:hover {
+  color:purple;
+}
+#book {
+  text-align: center;
+  font-style: italic;
+    color: green;
+}
+#book:hover {
+  color:purple;
+}
+#slogan {
+  font-family: 'Merienda', cursive;
+  font-size: 12pt;
+  font-style: italic;
+  text-align: center;
+
+}
