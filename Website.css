@@ -1,22 +1,49 @@
 body {
   background-color: #d3d3d3;
-  /*overflow: hidden; */
 }
-#contact {
-  font-family: 'Hyeon', sans-serif;
-  display: inline;
-  margin-left: 15px;
-  font-style: italic;
+#adSpace {
+  position: absolute;
+  width: 16%;
+  text-align: center;
+  height: 66.8%;
+  border: 1px solid black;
+}
+#adSpace2 {
+  position: absolute;
+  margin-left: 83%;
+  text-align: center;
+  width: 16%;
+  height: 66.8%;
+  border: 1px solid black;
+}
+#header_list {
+  width: 100%;
+  margin-left: 0;
+  padding: 0;
+
 }
 .header {
   font-family: 'Hyeon', sans-serif;
-  display: inline;
-  margin-left: 114px;
-  font-style: italic;
+  font-size: 18px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  width: auto;             /*added last */
+  border: .5px solid black;
+  padding-right: 8.4%; /*added */
+  padding-left: 0%;  
+  padding-top: 1%;    /*added */
+  display: inline-block;
+}
+ li:last-child {
+  margin-right: 0;
+  padding-right: auto;
 }
 #header_div {
+  text-align: justify;
+  min-width: 65%;
   margin-top: 25px;
-  margin-left: 250px;
+  margin-left: 17%;
 }
 .pool_div {
   margin: auto;
@@ -33,44 +60,54 @@ body {
 #pool_pic {
   border: 1pt solid gray;
   display: inline-block;
-  width: 65%;
+  width: 60%;
+  height: 437px;
 }
-.available {
+.available_box {
   margin-right: 1px;
-  border: 1px solid black;
   background-color: black;
   height: 437px;
-  width: 30%;
+  width: 39%;
   display: inline-block;
 }
 #available_div {
   font-family: 'Hyeon', sans-serif;
   font-weight: lighter;
   font-size: 18px;
+  width: 39%;
+  text-align: center;
   color: white;
+
   position: absolute;
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: auto;
 }
 a {
   text-decoration: none;
-  color: green;
+  color: white;
 }
 a:hover {
-  color:purple;
+  color:yellow;
 }
-#book {
+p#book {
   text-align: center;
   font-style: italic;
-    color: green;
+
 }
-#book:hover {
-  color:purple;
+#book_a {
+  color: green;
+}
+#book_a:hover {
+  color: yellow;
 }
 #slogan {
   font-family: 'Merienda', cursive;
   font-size: 12pt;
   font-style: italic;
   text-align: center;
-
+}
+.weatherwidget-io{
+  margin-top: 30px;
+  margin-left: 17%;
+  width: 66%;
 }

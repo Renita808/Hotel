@@ -5,11 +5,13 @@
     let numRooms = 10;
     document.getElementById("rooms").innerHTML = + numRooms;
 };
+var hour = new Date().getHours();
+let hourUpdate = ("Good " + (hour<12 && "Morning" || hour<18 && "Afternoon" || "Evening"))
+
 
 function greet(){
-var greeting = 'Hi ';
-var name = 'Renita! ';
-var welcome = greeting + name;
+var name = ' Renita! ';
+var welcome = hourUpdate + name;
 var updateGreet = document.getElementById("greeting");
 updateGreet.textContent = welcome;
 }
