@@ -31,7 +31,7 @@ body {
   width: auto;             /*added last */
   border: .5px solid black;
   padding-right: 8.4%; /*added */
-  padding-left: 0%;  
+  padding-left: 0%;
   padding-top: 1%;    /*added */
   display: inline-block;
 }
@@ -41,7 +41,7 @@ body {
 }
 #header_div {
   text-align: justify;
-  min-width: 65%;
+  width: 83%; /*replaced min-width 65% with width*/
   margin-top: 25px;
   margin-left: 17%;
 }
